@@ -25,7 +25,7 @@ int main(){
 			//Conditional to check for operation
 			if(op == "ADD"){
 				//std::hex is used to convert hex to integers and vice versa. 
-				cout << i << ". " << std::hex << hexone << " + " << hextwo << " = " << hexone + hextwo << endl;
+				cout << i << ". " << std::hex << hexone << " + " << hextwo << " = 0x" << hexone + hextwo << endl;
 			}
 			i++;
 		}
